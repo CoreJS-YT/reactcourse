@@ -1,20 +1,34 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import ReactDOM from "react-dom/client";
+import { Saludar, UserCard, Saludar5 } from "./Saludar";
+import Product, { Navbar } from "./Product";
+import { Botton } from "./Botton";
+import { TaskCard } from './Task'
+import { Post } from "./Post";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-function Saludar() {
-  var user = {
-    firstName: "ryan",
-    lastname: "Ray",
-  };
+function Counter() {
+  const [ mensaje, setMensaje ] = useState()
+
+  useEffect(function() => {
+    console.log('renter')
+  })
 
   return (
-    <>
-      <h1>{user.firstName}</h1>
-      <h3>{user.lastname}</h3>
-    </>
-  );
+    <div>
+      <input onChange={e => setMensaje(e.target.value)} />
+      <button onClick={() => {
+        
+      }}>
+        Save
+      </button>
+    </div>
+  )
 }
 
-root.render(<Saludar />);
+root.render(
+  <>
+    <Counter />
+  </>
+);

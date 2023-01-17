@@ -1,33 +1,33 @@
-# Getting Started with Create React App
+# Curso de React de Fazt
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Mi app de react [Curso De Fazt](https://youtu.be/rLoWMU4L_qE).
 
-## Available Scripts
+## Los Scripts De NPM
 
-In the project directory, you can run:
+En react, node para arrancar el proyecto:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Para Arrancar apps de desarrollo \
+Abrir el server de desarrollo [Server De Devs](http://localhost:3000) para visualizar el contenido en un navegador.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+La Pagina refrescara cuando hagas cambios.\
+Puede ver los errores de el codigo en la consola.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Inicia el modo de pruebas en reloj \
+Si tienes dudas entra [Modo De Pruebas Dudas](https://facebook.github.io/create-react-app/docs/running-tests) para mas informacion.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Es para cuando terminaste el proyect hagas la carpeta `build`\
+Hay Bunddles para el correcto funcionamiento de el buid de react
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+El build cuando se haga incluira archivos .html y assets.\
+Para desplegar tu app enseguida.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Si tienes dudas entra [Despliege dudas](https://facebook.github.io/create-react-app/docs/deployment) para mas informacion.
 
 ### `npm run eject`
 
